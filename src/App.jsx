@@ -48,15 +48,15 @@ function App() {
           </div>
         </div>
         <div className="container-left__libre1">
-            <div className="container-left__libre1__texto">Cookies</div>
-            <div className="container-left__libre1__texto">Privacidad</div>
+            <div className="container-left__libre1__texto"><a className="container-left__libre1__texto__link" href='https://www.spotify.com/co/legal/cookies-policy/' target={'_blank'} rel="noreferrer">Cookies</a></div>
+            <div className="container-left__libre1__texto"><a className="container-left__libre1__texto__link" href='https://www.spotify.com/co/legal/privacy-policy/' target={'_blank'} rel="noreferrer">Privacidad</a></div>
           </div>
           <div className="container-left__libre2">
             <div className="container-left__libre2__left">
               <div className="container-left__libre2__left__title">MUESTRA DE SPOTIFY</div>
               <div className="container-left__libre2__left__text">Registrate para disfrutar de canciones y podcast sin limites, con anuncios ocasionales. No hace falta tarjeta de credito.</div>
             </div>
-            <button className="container-left__libre2__right">Registrarte gratis</button>
+            <a className="container-left__libre2__right" href='https://www.spotify.com/co/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F' target="_blank" rel="noreferrer">Registrarte gratis</a>
           </div>
       </div>
       <div className="container-right">
@@ -71,12 +71,12 @@ function App() {
           </div>
           <div className="container-right__nav__right">
             <div className="container-right__nav__right__box">
-              <h3 className="container-right__nav__right__title">Premium</h3>
-              <h3 className="container-right__nav__right__title">Asistencia</h3>
-              <h3 className="container-right__nav__right__title">Descargar</h3>
+              <h3 className="container-right__nav__right__title"><a href='https://www.spotify.com/pe/premium/?_ga=2.263084101.897001736.1672272317-1197565399.1667843691&_gac=1.162236110.1672272396.CjwKCAiA76-dBhByEiwAA0_s9StvTrD3GZ3XQYI85-5COSNj9Ww057KBWbuCHzNo5NoVNJrB5hc2hBoCh6MQAvD_BwE' target={'_blank'} rel="noreferrer" className="container-right__nav__right__title__link">Premium</a></h3>
+              <h3 className="container-right__nav__right__title"><a href='https://support.spotify.com/pe/' target={'_blank'} rel="noreferrer" className="container-right__nav__right__title__link">Asistencia</a></h3>
+              <h3 className="container-right__nav__right__title"><a href='https://www.spotify.com/pe/download/windows/?_ga=2.264262598.897001736.1672272317-1197565399.1667843691&_gac=1.151048011.1672272396.CjwKCAiA76-dBhByEiwAA0_s9StvTrD3GZ3XQYI85-5COSNj9Ww057KBWbuCHzNo5NoVNJrB5hc2hBoCh6MQAvD_BwE' target={'_blank'} rel="noreferrer" className="container-right__nav__right__title__link">Descargar</a></h3>
             </div>   
-            <h3 className="container-right__nav__right__title">Registrate</h3>
-            <button className="container-right__nav__right__button">Iniciar sesion</button>
+            <a href='https://www.spotify.com/co/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F' target="_blank" rel="noreferrer" className="container-right__nav__right__title container-right__nav__right__title--descargar">Registrate</a>
+            <a className="container-right__nav__right__button" href='https://accounts.spotify.com/es-ES/login?continue=https%3A%2F%2Fopen.spotify.com%2F' target='_blank' rel="noreferrer">Iniciar sesion</a>
           </div>
         </div>
         <div className="container-right__contents">
@@ -110,7 +110,7 @@ function App() {
               </div>
             </div>
             <div className="container-right__relative__up__right"> {/*container-icons*/}
-              <a className="container-right__relative__up__right__logos" href='https://github.com/Peluchow' target="_blank" rel="noreferrer">{/*container-icons__logo*/}
+              <a className="container-right__relative__up__right__logos" href='https://github.com/JesusAltamirano14' target="_blank" rel="noreferrer">{/*container-icons__logo*/}
                 <div className="container-right__relative__up__right__logos__link" ></div>{/*container-icons__logo__link*/}
               </a>
               <a className="container-right__relative__up__right__logos" href='https://www.linkedin.com/in/jesus-dario-altamirano-barzola-5a7882255/' target="_blank" rel="noreferrer">{/*container-icons__logo*/}
